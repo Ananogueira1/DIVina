@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.grid {
+    width: 83%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    height: 1200px;
+    background-color: aqua;
+}
+
+.header_box{
+    display: Flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 297px;
+}
+
+
+.logo_header{
+    display: flex;
+}
+
+.nave_home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 405px;
+}
+
+.nave_home a{
+    color: black;
+}
+
+.box_contato{
+    border: 3px solid #660027;
+    width: 622px;
+    height: 555px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 60px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-left: 302px;
+    margin-top: 60px;
+}
+
+.box_contato h1{
+ color: #660027;
+ font-family: Roboto;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 36px;
+ line-height: 42px;
+}
+
+
+
+.Dados_box{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    line-height: 40px;
+    text-transform: capitalize;
+    margin: 20px 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;    
+}
+
+.Dados_box span{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #7B7676;
+    
+}
+
+.Input{
+    /* width: 119%; */
+    max-width: 575px;
+    height: 30px;
+}
+
